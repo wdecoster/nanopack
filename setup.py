@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords='nanopore sequencing processing analysis',
-    packages=find_packages() + ['reference'],
+    packages=find_packages(),
     install_requires=[
         'NanoPlot',
         'NanoStat',
