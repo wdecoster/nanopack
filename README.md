@@ -7,9 +7,7 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 `pip install nanopack --upgrade`
 
 
-
 ## Scripts
-
 **[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2].
 
 **[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length and minimum quality cut-off. Also trimming nucleotides from either read ends is an option.
