@@ -6,14 +6,14 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-exec(open('nanolyse/version.py').read())
+exec(open('nanopack/version.py').read())
 
 setup(
-    name='NanoLyse',
+    name='nanopack',
     version=__version__,
-    description='Removing reads mapping to the lambda genome',
+    description='Install all Oxford Nanopore scrips and modules for processing and analysis',
     long_description=open(path.join(here, "README.rst")).read(),
-    url='https://github.com/wdecoster/nanolyse',
+    url='https://github.com/wdecoster/nanopack',
     author='Wouter De Coster',
     author_email='decosterwouter@gmail.com',
     license='MIT',
@@ -27,12 +27,19 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    keywords='nanopore sequencing processing',
+    keywords='nanopore sequencing processing analysis',
     packages=find_packages() + ['reference'],
-    install_requires=['mappy>=2.2'],
-    package_data={'nanolyse': []},
-    package_dir={'nanolyse': 'nanolyse'},
+    install_requires=[
+        'NanoPlot',
+        'NanoStat',
+        'NanoFilt',
+        'NanoLyse',
+        'nanoget',
+        'nanomath',
+        'nanoplotter'
+    ],
+    package_data={'nanopack': []},
+    package_dir={'nanopack': 'nanopack'},
     include_package_data=True,
-    entry_points={
-        'console_scripts': ['NanoLyse=nanolyse.NanoLyse:main', ]}
+
 )
