@@ -30,13 +30,13 @@ setup(
     keywords='nanopore sequencing processing analysis',
     packages=find_packages(),
     install_requires=[
-        'NanoPlot',
-        'NanoStat',
-        'NanoFilt',
-        'NanoLyse',
-        'nanoget',
-        'nanomath',
-        'nanoplotter'
+        'NanoPlot>=0.20.1',
+        'NanoStat>=0.6.1',
+        'NanoFilt>=1.5.2',
+        'NanoLyse>=0.2.1',
+        'nanoget>=0.15.0',
+        'nanomath>=0.13.3',
+        'nanoplotter>=0.16.5'
     ],
     package_data={'nanopack': []},
     package_dir={'nanopack': 'nanopack'},
