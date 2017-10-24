@@ -10,19 +10,21 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 ## Scripts
 **[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2].
 
-**[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length and minimum quality cut-off. Also trimming nucleotides from either read ends is an option.
+**[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
 
-**[NanoStat][4]**: Quickly create a statistical summary from reads, an alignment or a summary file
+**[NanoStat][4]**: Quickly create a statistical summary from reads, an alignment or a summary file.
+
+**[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length and minimum quality cut-off. Also trimming nucleotides from either read ends is an option.
 
 **[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
 
 
 ## Modules
-**[nanoget][6]**: Functions for extracting features from reads, alignments and albacore summary data.  
+**[nanoget][6]**: Functions for extracting features from reads, alignments and albacore summary data, parallelized.  
 
-**[nanomath][7]**: Functions for mathematical processing and calculating statistics  
+**[nanomath][7]**: Functions for mathematical processing and calculating statistics.  
 
-**[nanoplotter][8]**: Appropriate plotting functions, heavily using the seaborn module
+**[nanoplotter][8]**: Appropriate plotting functions, building on the [seaborn][11] module.
 
 
 
@@ -35,3 +37,5 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
   [7]: https://github.com/wdecoster/nanomath
   [8]: https://github.com/wdecoster/nanoplotter
   [9]: https://github.com/lh3/minimap2
+  [10]: https://github.com/wdecoster/nanocomp
+  [11]: https://seaborn.pydata.org/
