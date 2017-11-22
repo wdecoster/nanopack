@@ -8,7 +8,7 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 
 
 ## Scripts
-**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2].
+**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]**.
 
 **[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
 
@@ -39,3 +39,4 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
   [9]: https://github.com/lh3/minimap2
   [10]: https://github.com/wdecoster/nanocomp
   [11]: https://seaborn.pydata.org/
+  [12]: https://github.com/wdecoster/nanogui
