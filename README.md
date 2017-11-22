@@ -27,6 +27,9 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 **[nanoplotter][8]**: Appropriate plotting functions, building on the [seaborn][11] module.
 
 
+## Test data
+**[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)
+
 
   [1]: https://github.com/wdecoster/NanoPlot
   [2]: https://gigabaseorgigabyte.wordpress.com/2017/06/01/example-gallery-of-nanoplot/
@@ -40,3 +43,4 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
   [10]: https://github.com/wdecoster/nanocomp
   [11]: https://seaborn.pydata.org/
   [12]: https://github.com/wdecoster/nanogui
+  [13]: https://github.com/wdecoster/nanotest
