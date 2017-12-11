@@ -6,8 +6,8 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 ## Updating
 `pip install nanopack --upgrade`
 
-
-## Scripts
+## Content
+### Scripts
 **[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]**.
 
 **[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
@@ -19,7 +19,7 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 **[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
 
 
-## Modules
+### Modules
 **[nanoget][6]**: Functions for extracting features from reads, alignments and albacore summary data, parallelized.  
 
 **[nanomath][7]**: Functions for mathematical processing and calculating statistics.  
@@ -27,9 +27,11 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 **[nanoplotter][8]**: Appropriate plotting functions, building on the [seaborn][11] module.
 
 
-## Test data
-**[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)
+### Test data
+**[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)  
 
+## Misc
+Presentation [VIB bioinformatics community meeting](https://docs.google.com/presentation/d/1rGeIngpbRubMjbh6FuHUka1rq5UwkHeZThdoXMpbzmk/edit?usp=sharing)
 
   [1]: https://github.com/wdecoster/NanoPlot
   [2]: https://gigabaseorgigabyte.wordpress.com/2017/06/01/example-gallery-of-nanoplot/
