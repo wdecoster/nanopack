@@ -29,6 +29,7 @@ setup(
     ],
     keywords='nanopore sequencing processing analysis',
     packages=find_packages(),
+    python_requires='>=3',
     install_requires=[
         'NanoPlot>=0.20.1',
         'NanoStat>=0.6.1',
