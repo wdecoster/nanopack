@@ -1,5 +1,5 @@
 # NANOPACK
-Easily install all my Oxford Nanopore processing and analysis scripts at the same time.
+Easily install all my long read processing and analysis scripts simultaneously.
 
 ## Installation
 `pip install nanopack`
@@ -30,8 +30,6 @@ Easily install all my Oxford Nanopore processing and analysis scripts at the sam
 ### Test data
 **[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)  
 
-## Misc
-Presentation [VIB bioinformatics community meeting](https://docs.google.com/presentation/d/1rGeIngpbRubMjbh6FuHUka1rq5UwkHeZThdoXMpbzmk/edit?usp=sharing)
 
   [1]: https://github.com/wdecoster/NanoPlot
   [2]: https://gigabaseorgigabyte.wordpress.com/2017/06/01/example-gallery-of-nanoplot/
