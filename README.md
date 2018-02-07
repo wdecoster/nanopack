@@ -6,6 +6,8 @@ Easily install all my long read processing and analysis scripts simultaneously.
 ## Updating
 `pip install nanopack --upgrade`
 
+These scripts are written and tested for Python3, and may not work on Python2.
+
 ## Content
 ### Scripts
 **[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]**.
