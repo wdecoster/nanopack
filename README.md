@@ -16,7 +16,7 @@ These scripts are written and tested for Python3, and may not work on Python2.
 
 **[NanoStat][4]**: Quickly create a statistical summary from reads, an alignment or a summary file.
 
-**[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length and minimum quality cut-off. Also trimming nucleotides from either read ends is an option.
+**[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length, minimum quality cut-off, minimum and maximum average GC. Also trimming nucleotides from either read ends is an option.
 
 **[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
 
