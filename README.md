@@ -14,6 +14,8 @@ These scripts are written and tested for Python3, and may not work on Python2.
 
 **[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
 
+**[NanoQC][14]**: Generating plots to investigate nucleotide composition and quality distribution at the end of reads.
+
 **[NanoStat][4]**: Quickly create a statistical summary from reads, an alignment or a summary file.
 
 **[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length, minimum quality cut-off, minimum and maximum average GC. Also trimming nucleotides from either read ends is an option.
@@ -46,3 +48,4 @@ These scripts are written and tested for Python3, and may not work on Python2.
   [11]: https://seaborn.pydata.org/
   [12]: https://github.com/wdecoster/nanogui
   [13]: https://github.com/wdecoster/nanotest
+  [14]: https://github.com/wdecoster/nanoQC

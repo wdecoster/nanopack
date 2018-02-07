@@ -39,7 +39,8 @@ setup(
         'nanomath>=0.13.3',
         'nanoplotter>=0.16.5',
         'NanoComp>=0.4.0',
-        'NanoGUI'
+        'NanoGUI',
+        'nanoQC>=0.5.0'
     ],
     package_data={'nanopack': []},
     package_dir={'nanopack': 'nanopack'},
