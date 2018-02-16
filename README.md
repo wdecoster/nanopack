@@ -10,7 +10,7 @@ These scripts are written and tested for Python3, and may not work on Python2.
 
 ## Content
 ### Scripts
-**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]**.
+**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]** or as a **[web service](http://nanoplot.bioinf.be)**.
 
 **[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
 
