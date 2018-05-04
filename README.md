@@ -49,3 +49,6 @@ These scripts are written and tested for Python3, and may not work on Python2.
   [12]: https://github.com/wdecoster/nanogui
   [13]: https://github.com/wdecoster/nanotest
   [14]: https://github.com/wdecoster/nanoQC
+
+  ## CITATION
+  If you use this tool, please consider citing our [publication](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty149/4934939).
