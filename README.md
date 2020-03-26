@@ -28,9 +28,6 @@ These scripts are written and tested for Python3, and may not work on Python2.
 
 **[nanomath][7]**: Functions for mathematical processing and calculating statistics.  
 
-**[nanoplotter][8]**: Appropriate plotting functions, building on the [seaborn][11] module.
-
-
 ### Test data
 **[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)  
 
@@ -42,7 +39,6 @@ These scripts are written and tested for Python3, and may not work on Python2.
   [5]: https://github.com/wdecoster/nanolyse
   [6]: https://github.com/wdecoster/nanoget
   [7]: https://github.com/wdecoster/nanomath
-  [8]: https://github.com/wdecoster/nanoplotter
   [9]: https://github.com/lh3/minimap2
   [10]: https://github.com/wdecoster/nanocomp
   [11]: https://seaborn.pydata.org/
