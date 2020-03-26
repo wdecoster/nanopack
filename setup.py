@@ -35,7 +35,7 @@ setup(
         'NanoStat>=1.2.0',
         'NanoFilt>=2.6.0',
         'NanoLyse>=1.1.0',
-        'nanoget>=1.21.1',
+        'nanoget>=1.12.1',
         'nanomath>=0.23.1',
         'NanoComp>=1.10.1',
         'nanoQC>=0.9.2'
