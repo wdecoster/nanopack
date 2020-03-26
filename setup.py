@@ -31,15 +31,14 @@ setup(
     packages=find_packages(),
     python_requires='>=3',
     install_requires=[
-        'NanoPlot>=1.15.0',
-        'NanoStat>=1.1.2',
-        'NanoFilt>=2.2.0',
+        'NanoPlot>=1.29.0',
+        'NanoStat>=1.2.0',
+        'NanoFilt>=2.6.0',
         'NanoLyse>=1.1.0',
-        'nanoget>=1.6.0',
-        'nanomath>=0.21.0',
-        'nanoplotter>=0.40.0',
-        'NanoComp>=0.19.0',
-        'nanoQC>=0.8.1'
+        'nanoget>=1.21.1',
+        'nanomath>=0.23.1',
+        'NanoComp>=1.10.1',
+        'nanoQC>=0.9.2'
     ],
     package_data={'nanopack': []},
     package_dir={'nanopack': 'nanopack'},
