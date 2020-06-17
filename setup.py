@@ -16,7 +16,7 @@ setup(
     url='https://github.com/wdecoster/nanopack',
     author='Wouter De Coster',
     author_email='decosterwouter@gmail.com',
-    license='MIT',
+    license='GPLv3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Science/Research',
@@ -31,14 +31,14 @@ setup(
     packages=find_packages(),
     python_requires='>=3',
     install_requires=[
-        'NanoPlot>=1.29.0',
-        'NanoStat>=1.2.0',
-        'NanoFilt>=2.6.0',
-        'NanoLyse>=1.1.0',
-        'nanoget>=1.12.1',
-        'nanomath>=0.23.1',
-        'NanoComp>=1.10.1',
-        'nanoQC>=0.9.2'
+        'NanoPlot>=1.30.0',
+        'NanoStat>=1.2.1',
+        'NanoFilt>=2.7.1',
+        'NanoLyse>=1.1.3',
+        'nanoget>=1.13.2',
+        'nanomath>=0.23.3',
+        'NanoComp>=1.11.2',
+        'nanoQC>=0.9.3'
     ],
     package_data={'nanopack': []},
     package_dir={'nanopack': 'nanopack'},
