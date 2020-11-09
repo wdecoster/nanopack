@@ -12,7 +12,7 @@ setup(
     name='nanopack',
     version=__version__,
     description='Install all Oxford Nanopore scrips and modules for processing and analysis',
-    long_description=open(path.join(here, "README.rst")).read(),
+    long_description=open(path.join(here, "README.md")).read(),
     url='https://github.com/wdecoster/nanopack',
     author='Wouter De Coster',
     author_email='decosterwouter@gmail.com',

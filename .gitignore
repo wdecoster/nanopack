@@ -1,3 +1,4 @@
 README.rst
 nanopack.egg-info/
 dist/
+build/
