@@ -1,36 +1,44 @@
 # NANOPACK
-Easily install all my long read processing and analysis scripts simultaneously.
 
-## Installation
-`pip install nanopack`
-## Updating
-`pip install nanopack --upgrade`
+Overview of my long read processing and analysis tools.
 
-These scripts are written and tested for Python3, and may not work on Python2.
+## Tools
 
-## Content
-### Scripts
-**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available with a graphical user interface in **[NanoGUI][12]** or as a **[web service](http://nanoplot.bioinf.be)**.
+**[NanoPlot][1]**: creating many relevant plots derived from reads (fastq), alignments (bam) and albacore summary files. Examples can be found in [the gallery on my blog][2]. NanoPack is also available as a **[web service](http://nanoplot.bioinf.be)**.
 
 **[NanoComp][10]**: comparing multiple runs on read length and quality based on reads (fastq), alignments (bam) or albacore summary files.
 
 **[NanoQC][14]**: Generating plots to investigate nucleotide composition and quality distribution at the end of reads.
 
-**[NanoStat][4]**: Quickly create a statistical summary from reads, an alignment or a summary file.
+**[Cramino][12]**: Rust replacement for NanoStat - much quicker summary creation of BAM or CRAM files.
 
-**[NanoFilt][3]**: Streaming script for filtering a fastq file based on a minimum length, minimum quality cut-off, minimum and maximum average GC. Also trimming nucleotides from either read ends is an option.
+**[nanofiltrs][16]**: A rust implementation combining NanoLyse and NanoFilt into one faster tool for filtering, trimming, and removing contaminants
 
-**[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
+**[phasius][15]**: Rust tool to create a graphical representation of the read phasing performance (from BAM/CRAM files)
 
+## Deprecated (replaced by quicker alternatives)
 
-### Modules
+[NanoStat][4]: Create a statistical summary from reads, an alignment or a summary file.
+
+[NanoFilt][3]: Streaming script for filtering a fastq file based on a minimum length, minimum quality cut-off, minimum and maximum average GC. Also trimming nucleotides from either read ends is an option.
+
+[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
+
+## Modules
+
 **[nanoget][6]**: Functions for extracting features from reads, alignments and albacore summary data, parallelized.  
 
 **[nanomath][7]**: Functions for mathematical processing and calculating statistics.  
 
-### Test data
+## Test data
+
 **[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)  
 
+## Installation of the python tools
+
+The python scripts are written and tested for Python >= 3.6.
+
+`pip install nanopack`
 
   [1]: https://github.com/wdecoster/NanoPlot
   [2]: https://gigabaseorgigabyte.wordpress.com/2017/06/01/example-gallery-of-nanoplot/
@@ -41,10 +49,12 @@ These scripts are written and tested for Python3, and may not work on Python2.
   [7]: https://github.com/wdecoster/nanomath
   [9]: https://github.com/lh3/minimap2
   [10]: https://github.com/wdecoster/nanocomp
-  [11]: https://seaborn.pydata.org/
-  [12]: https://github.com/wdecoster/nanogui
+  [12]: https://github.com/wdecoster/cramino
   [13]: https://github.com/wdecoster/nanotest
   [14]: https://github.com/wdecoster/nanoQC
+  [15]: https://github.com/wdecoster/phasius
+  [16]: https://github.com/wdecoster/nanofiltrs
 
-  ## CITATION
+## CITATION
+
   If you use this tool, please consider citing our [publication](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty149/4934939).
