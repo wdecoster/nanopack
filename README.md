@@ -12,7 +12,7 @@ Overview of my long read processing and analysis tools.
 
 **[Cramino][12]**: Rust replacement for NanoStat - much quicker summary creation of BAM or CRAM files.
 
-**[nanofiltrs][16]**: A rust implementation combining NanoLyse and NanoFilt into one faster tool for filtering, trimming, and removing contaminants
+**[chopper][16]**: A rust implementation combining NanoLyse and NanoFilt into one faster tool for filtering, trimming, and removing contaminants
 
 **[phasius][15]**: Rust tool to create a graphical representation of the read phasing performance (from BAM/CRAM files)
 
@@ -53,7 +53,7 @@ The python scripts are written and tested for Python >= 3.6.
   [13]: https://github.com/wdecoster/nanotest
   [14]: https://github.com/wdecoster/nanoQC
   [15]: https://github.com/wdecoster/phasius
-  [16]: https://github.com/wdecoster/nanofiltrs
+  [16]: https://github.com/wdecoster/chopper
 
 ## CITATION
 
