@@ -24,7 +24,7 @@ Overview of my long read processing and analysis tools.
 
 [NanoFilt][3]: Streaming script for filtering a fastq file based on a minimum length, minimum quality cut-off, minimum and maximum average GC. Also trimming nucleotides from either read ends is an option.
 
-[NanoLyse][5]**: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
+[NanoLyse][5]: Streaming script for filtering a fastq file to remove reads mapping to the lambda phage genome (control DNA used in nanopore sequencing). Uses [minimap2/mappy][9].
 
 ## Modules
 
@@ -36,11 +36,9 @@ Overview of my long read processing and analysis tools.
 
 **[nanotest][13]** provides small test datasets in fastq, bam and summary format (not included when installing NanoPack)  
 
-## Installation of the python tools
+## Installation 
 
-The python scripts are written and tested for Python >= 3.6.
-
-`pip install nanopack`
+The python scripts are written and tested for Python >= 3.6. With `pip install nanopack` all python tools can be installed simultaneously, but using a conda environment is encouraged. For the rust tools binaries can be downloaded from the releases on the respective GitHub repositories, as well as installation through conda.
 
   [1]: https://github.com/wdecoster/NanoPlot
   [2]: https://gigabaseorgigabyte.wordpress.com/2017/06/01/example-gallery-of-nanoplot/
