@@ -16,6 +16,8 @@ Overview of my long read processing and analysis tools.
 
 **[phasius][15]**: Rust tool to create a graphical representation of the read phasing performance (from BAM/CRAM files)
 
+**[kyber][17]**: Rust tool for a minimalistic and standarized impression of a BAM/CRAM file, optionally comparing 2 or 3 datasets.
+
 ## Deprecated (replaced by quicker alternatives)
 
 [NanoStat][4]: Create a statistical summary from reads, an alignment or a summary file.
@@ -54,6 +56,7 @@ The python scripts are written and tested for Python >= 3.6.
   [14]: https://github.com/wdecoster/nanoQC
   [15]: https://github.com/wdecoster/phasius
   [16]: https://github.com/wdecoster/chopper
+  [17]: https://github.com/wdecoster/kyber
 
 ## CITATION
 
