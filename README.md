@@ -58,4 +58,4 @@ The python scripts are written and tested for Python >= 3.6. With `pip install n
 
 ## CITATION
 
-  If you use this tool, please consider citing our [publication](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty149/4934939).
+  If you use this tool, please consider citing our [publication](https://academic.oup.com/bioinformatics/article/39/5/btad311/7160911).
